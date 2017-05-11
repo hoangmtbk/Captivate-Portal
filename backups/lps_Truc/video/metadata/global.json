@@ -1,0 +1,13 @@
+{
+  "title": "EasyWebHub Advanced Template",
+  "description": "Thousands of developers use EasyWebHub to build personal, company, blog, ecommerce websites, support their businesses, and work together on open source technologies.",
+  "url": "https://easywebhub.com",
+  "github-url" : "http://localhost:3000/",
+  "meta-tag" : {
+    "keywords": "website templates, easywebhub, easyapp",
+    "author": "VinaAS Co.,Ltd"
+  },
+  "linkBanner": "https://vplus.vienthonga.vn/san-thuong/tung-xuc-xac-bat-lien-qua",
+  "hinhBannerMobile" : "https://cdn1.vienthonga.vn/image/2016/10/3/100000_tungxuc-xac-750x300.jpg",
+  "hinhBannerDesktop" : "https://cdn1.vienthonga.vn/image/2016/10/3/100000_tungxuc-xac-1200x300.jpg"
+}

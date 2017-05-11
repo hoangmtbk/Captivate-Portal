@@ -1,0 +1,15 @@
+<html>
+<body>
+    <form action="#" method="POST">
+        <select id="c03" name="c03">
+          <option value="1">Banner 5s</option>
+          <option value="2">Email & SDT</option>
+          <option value="3">2 Banner xoay vong</option>
+          <option value="4">Facebook</option>
+          <option value="5">Videos</option>
+        </select>
+        <INPUT TYPE="hidden" NAME="nextlevel" VALUE="AUTO">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

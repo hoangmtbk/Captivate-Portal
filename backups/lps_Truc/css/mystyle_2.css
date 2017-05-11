@@ -1,0 +1,299 @@
+#detail_1{
+    max-height:100vh !important;
+    min-height:100vh !important;
+    background: url(../img/bg.jpg) no-repeat !important;
+    background-size: cover;
+    
+}
+
+#detail{
+
+    background: url(../img/bg.jpg) no-repeat !important;   
+}
+
+.fixed-footer{
+    position:fixed;
+    bottom: 0px;
+    z-index: 9999;
+    
+}
+
+ .face{
+    background: url(../img/but-01.png) 0 0/100% no-repeat !important; 
+    height: 58px;
+    width: 16%;
+    position: absolute;
+    right: 300px;
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+.free{
+    background: url(../img/but-03.png) 0 0/97% no-repeat !important; 
+    height: 58px;
+    width: 16%;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+.fixed-footer .info{
+    background-color: #0083c7;
+    opacity: 0.2;
+} 
+
+#my_wifi .button:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 3px solid #e74c3c;
+}
+
+#my_wifi .button:before{
+    border: 0.3rem solid black !important;
+    border-radius: 50% !important;
+    border-bottom-color: #0083c7 !important;
+    border-top-color: #0083c7 !important;
+    border-right-color: #5bc6d0 !important;
+    border-left-color: #5bc6d0 !important; 
+    
+}
+#my_wifi .secondary:before {
+    -webkit-animation: spin 1s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 1s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#my_wifi .button{
+    padding:5px;
+    margin:0px;
+    width:58px;
+    height:58px;
+    position: relative;
+    background-color: transparent !important;
+    border-radius:50% !important;
+    color: #0083c7 !important;
+    border-radius: 0 !important; 
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: center;
+}
+
+#my_wifi{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+/*
+.fixed-footer{
+    /*max-height:13vh !important;
+    min-height:13vh !important;
+    background-color: #f2913a;
+    background: url(../img/border-bottom_1.jpg) no-repeat 0 bottom #f2913a !important;
+    background-size: 50px 50px;
+    position: relative;  
+}
+
+.fixed-footer{
+    vertical-align: bottom;
+}   
+.fixed-footer img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+  
+.fixed-footer .button{
+    display: table-cell;
+    height: 13vh;
+    width: 13vh;
+    /* border-radius: 50%; 
+    /* text-align: center;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+    border-radius: 7vh;
+    font-size:1rem;
+}
+
+.fixed-footer .cta{
+    position: absolute;
+    right: 30px;
+    height: 13vh;
+    bottom: 2vh;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+@media screen and (min-width:1024px){
+    .fixed-footer p{
+    margin-bottom: 0px !important;
+    font-size: 1.25rem !important
+}
+
+}
+@media screen and (max-height:320px) and (max-width:480px){
+.fixed-footer .cta{
+    bottom: 1px;
+}
+}
+@media screen and (min-height:768px){
+.fixed-footer{
+    max-height:13vh !important;
+    min-height:13vh !important;
+
+}
+#detail{
+    max-height:87vh !important;
+    min-height:87vh !important;
+}
+
+.fixed-footer .button{
+    height: 93px;
+    width: 93px;
+    border-radius: 47px;
+}
+
+.fixed-footer .cta{
+    position: absolute;
+    right: 30px;
+    height: 93px;
+    bottom:3px;
+}
+}
+@media screen and (min-height:480px) and (max-height:767px){
+.fixed-footer{
+    max-height:7vh !important;
+    min-height:7vh !important;
+
+}
+#detail{
+    max-height:93vh !important;
+    min-height:93vh !important;
+}
+
+.fixed-footer .button{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 4vh;
+}
+
+.fixed-footer .cta{
+    position: absolute;
+    right: 30px;
+    height: 7vh;
+    bottom: 0vh;
+}
+}
+
+@media screen and (min-height:1024px){
+.fixed-footer{
+    max-height:7vh !important;
+    min-height:7vh !important;
+
+}
+#detail{
+    max-height:93vh !important;
+    min-height:93vh !important;
+}
+
+.fixed-footer .button{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 4vh;
+}
+
+.fixed-footer .cta{
+    position: absolute;
+    right: 30px;
+    height: 7vh;
+    bottom: 0px;
+}
+}
+@media screen and (min-height:1024px) and (min-width:1024px){
+.fixed-footer{
+    max-height:7vh !important;
+    min-height:7vh !important;
+
+}
+#detail{
+    max-height:93vh !important;
+    min-height:93vh !important;
+}
+
+.fixed-footer .button{
+    height: 93px;
+    width: 93px;
+    border-radius: 47px;
+}
+
+.fixed-footer .cta{
+    position: absolute;
+    right: 30px;
+    height: 93px;
+    bottom: 0px;
+}
+}
+
+@media screen  and (max-height:700px) and (min-width:1024px){
+    .fixed-footer{
+    max-height:7vh !important;
+    min-height:7vh !important;
+
+}
+#detail{
+    max-height:93vh !important;
+    min-height:93vh !important;
+}
+
+.fixed-footer .button{
+    height: 93px;
+    width: 93px;
+    border-radius: 47px;
+}
+
+.fixed-footer .cta{
+    position: absolute;
+    right: 30px;
+    height: 93px;
+    bottom: 0px;
+}
+}*/

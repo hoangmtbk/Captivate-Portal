@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+/* ==============================
+   Small desktop
+   ============================== */
+
+@media only screen and (min-width: 1200px) and (max-width: 1457px) {
+
+
+}
+@media only screen and (max-width: 1366px) {
+
+
+
+}
+
+@media only screen and (min-width: 1042px) {
+
+
+}
+@media only screen and (max-width: 1041px) {
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+}
+@media only screen and (max-width: 1199px) {
+
+}
+
+/* ==============================
+   Tablet landskape
+   ============================== */
+
+@media only screen and (max-width: 1024px) {
+
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+}
+
+
+/* ==============================
+   Tablet Portrait
+   ============================== */
+
+@media only screen and (max-width: 768px) {
+	.wrapper{width: 100%;}
+}
+
+@media only screen and (max-width: 767px) {
+	.wrapper{width: 100%;}
+}
+
+/* ----------- iPad mini ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.wrapper{width: 100%;}
+}
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.wrapper{width: 100%;}
+}
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+	.wrapper{width: 100%;}
+	.form{height: auto;}
+	.button{height: 87px; background: url(../images/bkg_button2x.png) no-repeat #eb051b; background-position: 0px 50%; padding: 10px 52px 10px 103px; font-size: 42px;}
+}
+/* ----------- Asus Nexus 7 ----------- */
+/* Portrait */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: portrait) {
+	.form{height: auto;}
+	.wrapper{width: 100%;}
+}
+/* ----------- Kindle Fire HD 7" ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+	.wrapper{width: 100%;}
+	.form{height: auto;}
+	.button{height: 87px; background: url(../images/bkg_button2x.png) no-repeat #eb051b; background-position: 0px 50%; padding: 10px 52px 10px 103px; font-size: 42px}
+}
+/* ----------- Kindle Fire HD 8.9" ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+	.wrapper{width: 100%;}
+}
+
+
+/* ==============================
+   Phone
+   ============================== */
+
+/* @media only screen and (max-width: 480px) { */
+@media only screen and (max-width: 720px) {
+	.wrapper{width: 100%;}
+	.button{font-size: 22px;}
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	.wrapper{width: 100%;}
+/* 	.form{height: auto;} */
+	.form{height: 240px;}
+	.button{height: 67px; background: url(../images/bkg_button.png) no-repeat #eb051b; background-position: 10px 50%; padding: 10px 42px 10px 83px; font-size: 32px;}
+	.footer{font-size: 20px;}
+}
+/* ----------- iPhone 6 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+	.wrapper{width: 100%;}
+	.form{height: 180px;}
+	.footer{margin-top: 36px; margin-bottom: 14px;}
+}
+
+/* ----------- iPhone 6+ ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+	.wrapper{width: 100%;}
+	.form{height: 200px;}
+	.footer{margin-top: 46px; margin-bottom: 20px;}
+}
+
+/* ==============================
+   Small Phone
+   ============================== */
+
+@media only screen and (max-width: 319px) {
+	.wrapper{width: 100%;}
+
+}
+
+
+/* ==============================
+   Max Height 768
+   ============================== */
+
+@media only screen and (max-height: 768px) {
+
+
+}

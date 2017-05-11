@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/* ==============================
+   Common styles
+   ============================== */
+
+/* 
+.align-center{ text-align:center !important; }
+.align-left{ text-align:left !important;}
+.align-right{ text-align:right !important; }
+.left{float:left !important;}
+.right{float:right !important;}
+.relative{position:relative;}
+.hidden{display:none;}
+.inline-block{display:inline-block;}
+.white{ color: #fff !important; }
+.black{ color: #000 !important; }
+.color{ color: #e41919 !important; }
+.stick-fixed{
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
+ */
+.round{
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+    border-radius: 2px !important;
+}
+
+::-moz-selection{ color: #fff; background:#000; }
+::-webkit-selection{ color: #fff; background:#000; }
+::selection{ color: #fff; background:#000; }
+
+
+
+
+html{
+  overflow-y: scroll;
+    -ms-overflow-style: scrollbar;
+}
+html, body{
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* ==============================
+   Typography
+   ============================== */
+
+body{
+  color: #000000;
+  font-family: arial, sans-serif;
+/*   line-height: 1.6; */
+  -webkit-font-smoothing: antialiased;
+  background-color: #c59e6b;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #111;
+  text-decoration: underline;
+}
+a:hover{
+  color: #888;
+  text-decoration: underline;
+}
+
+
+.wrapper{display: block; overflow: hidden; width: 600px; margin: auto;}
+.content{display: block; clear: both; overflow: hidden; background-color: #ffffff;}
+.medika{overflow: hidden; background-color: #f4dfc0;}
+.medika img{display: block; width: 100%; height: auto;}
+.form{display: block; text-align: center; font-size: 32px; background: url(../images/bkg_form.jpg) repeat-y; background-size: 100%; height: 114px;}
+.button{border: none; height: 47px; box-sizing: border-box; background: url(../images/bkg_button.png) no-repeat #eb051b; color: #fff; padding: 10px 22px 10px 63px; font-size: 22px; margin-top: 20px; cursor: pointer;}
+.footer{display: block; color: #744d21; font-size: 11px; margin-top: 26px; margin-bottom: 10px; box-sizing: border-box; padding-left: 26px; text-align: left;}
+
